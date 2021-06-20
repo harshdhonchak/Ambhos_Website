@@ -1,0 +1,105 @@
+.dance{
+
+    margin-bottom:500px;
+    margin-top:0;
+    /* display: block; */
+    
+    }
+    
+    .head{
+    position: absolute;
+    width: 95px;
+    height: 30px;
+    left: 0px;
+    top:100px;
+    
+    
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 100.4%;
+    /* or 30px */
+    
+    text-align: center;
+    letter-spacing: 0.14em;
+    
+    color: #F5530B;
+    }
+/*     
+.new{
+
+    display:block;
+    background-color: #e20b0b;
+} */
+
+    .para{
+    
+        position: absolute;
+        width: 353px;
+        height: 388px;
+        left: 0px;
+        top: 150px;
+        
+        font-family: Calibri;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 34px;
+        
+        color: #7C7C7C;
+        
+    
+    }
+    
+    .btn{
+    
+    position: absolute;
+    width: 206px;
+    height: 47px;
+    left: 0;
+    top: 300px;
+    
+    background: #F5530B;
+    border-radius: 6px;
+    
+    }
+    
+    
+    
+    
+    .carousel{
+      
+        position: absolute;
+left: 512px;
+/* right: 8.34%; */
+top:1502px;
+/* bottom: 16.67%; */
+
+    }
+
+.slider{
+    
+top: 0%;
+width: 60%;
+float: right;
+
+}
+
+@media  only screen and (max-width: 600px){
+    
+.slider{
+width: 350px;
+margin-top:450px;
+margin-right: 70px;
+}
+.content{
+   margin-left: 80px;
+
+}
+
+}
+
+    
+    /* -------------------------------------- */
+

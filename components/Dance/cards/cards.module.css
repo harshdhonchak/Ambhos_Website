@@ -1,0 +1,173 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@800&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+
+
+
+
+.card_style{
+  padding: 30px;
+
+}
+@import url(https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@800&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+
+
+
+
+.card_style{
+  padding: 30px;
+
+}
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+.card_img{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 277px;
+}
+
+
+
+.main_card{
+    
+    width: 311px;
+    height: 432px;
+     /* margin-right: 300px; */
+     box-shadow: inset -10px -50px 40px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+
+     margin: 80px 10px 10px ;
+  background-image: url('./images/image\ 65.jpg');
+    
+    /* box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05); */
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  cursor: pointer;
+   background-size:335px 450px;
+}
+
+.main_card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.card_title{
+  font-weight: 600;
+}
+.main_card hr {
+display: block;
+margin: 10px auto;
+  width: 50%;
+}
+.card_title{
+  font-size: 1.5rem;
+font-stretch: expanded;
+font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+.spec{
+  opacity: 50%;
+}
+.continuing{
+  color:#F5530B;
+font-weight: bold;
+}
+.stars{
+  margin-left: 130px;
+}
+.provided{
+  opacity: 50%;
+  margin-left: 200px;
+}
+.name{
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding-left: 136px;
+}
+@media(max-width: 990px){
+  .card{
+    margin: 20px;
+  }
+}
+@media (max-width:700px){
+  .main_card{
+ width: 390px;
+
+margin: 150px 20px;
+
+  }
+  .provided{
+    margin-left: 87px;
+  }
+
+  .name{
+font-size: 1rem;
+    padding-left: 5px;
+  }
+
+}
+
+.card_content{
+
+    /* position: absolute; */
+    width: 126px;
+    height: 57px;
+   font-family: Calibri;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    
+    color: #F9F9F9;    
+    
+margin-top: 310px;
+/* margin-left: 10px; */
+
+}
+
+.wishlist{
+     
+    width: 213px;
+    height: 38px;
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #F9F9F9;
+   
+
+}
+
+
+.bookmark
+{
+  
+color: rgb(255, 255, 255);
+
+float: right;
+ /* margin-right: 60px; */
+ line-height: 20px;
+ margin-top: 10px;
+ size: 20px;
+}
+
+.cart{
+width: 100%;
+  display: flex;
+justify-content: space-between;
+/* border: 1px solid black */
+;
+
+
+}
+
+@media  only screen and (max-width: 600px){
+     .bookmark{
+        margin-right: 60px;
+
+     }        
+
+
+}
+
